@@ -13,6 +13,7 @@ namespace DronOfFuture.App.Consola
             //AddClientes();
             //BuscarCliente(1);
             EliminarCliente(2);
+            //hola mundo
         }
         
         private static void AddClientes()

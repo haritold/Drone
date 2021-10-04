@@ -1,6 +1,6 @@
 namespace Dominio{
     public class Dron
     {
-        //xd
+        public string nombreDron;
     }
 }

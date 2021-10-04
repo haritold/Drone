@@ -1,0 +1,15 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Creadores de la página";
+}
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    @foreach (var pro in Model.ListaPro)
+    {
+        <tr>
+            <td>@pro</td>
+        </tr>
+    }
+    </table>
